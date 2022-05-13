@@ -4,20 +4,32 @@ body {
 
 }
 
-.navbar h4 {
+.navbar a {
     color: #EB813F;
     font-weight: 900;
     justify-content: center;
     display: flex;
     margin-top: 5px;
 }
-
+.foto h3 {
+    font-size: 4em;    
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    color: #ffff;
+    width: 90%;
+    text-align: center;
+    
+}
 .foto {
     background-image: url('/img/foto8.jpeg');
     height: 550px;
-
+    background-color: rgb(50,50,50);
+    background-blend-mode: soft-light;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;align-items: center;
+    justify-content: center;
 }
 
 .hero{
@@ -28,7 +40,8 @@ body {
     align-items: center;
     justify-content: center;
     display: flex;
-    
+    background-color: rgb(50,50,50);
+    background-blend-mode: soft-light;
 
 }
 .btn{
