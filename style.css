@@ -1,0 +1,84 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+    box-sizing: border-box;
+
+}
+
+.navbar h4 {
+    color: #EB813F;
+    font-weight: 900;
+    justify-content: center;
+    display: flex;
+    margin-top: 5px;
+}
+
+.foto {
+    background-image: url('/img/foto8.jpeg');
+    height: 550px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero{
+    height: 300px;
+    background-image: url('/img/minute.jpeg');
+    background-position: 100%;
+    background-size:100% ;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+
+}
+.btn{
+    width: auto;
+    height: 40px;
+    background-color: #EB813F;
+    color: white;
+    font-weight: 500;
+    border: none;
+
+}
+.btn:hover{
+    color: #EB813F;
+    background-color: white;
+
+}
+#row{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 5%;
+}
+.redes-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.redes-container ul li{
+    display: inline-block;
+    margin: 0 5px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+
+}
+.redes-container ul li a{
+    display: block;
+    padding: 0 10px;
+    background-color: #EB813F;
+    color: #993EAD;
+    line-height: 50px;
+    border-radius: 100%;
+    font-size: 18px;
+    box-shadow: 0 3px 5px 0 #993EAD;
+}
+.redes-container ul:hover a{
+    filter: blur(2px);
+}
+.redes-container ul li a:hover{
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 5px 5px 0 #921eac;
+    filter: none;
+}
